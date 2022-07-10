@@ -10,7 +10,7 @@ object Question_04 {
   def wageNormal(h1:Int)=250*h1
   def OTHours(h2:Int)=85*h2
   def IncomeSalary(h1:Int,h2:Int)=wageNormal(h1)+OTHours(h2)
-  def Tax(Income:Double)=0.12Income
+  def Tax(Income:Double)=0.12*Income
 
   def TakeSalary(h1:Int,h2:Int): Double ={
     IncomeSalary(h1,h2)-Tax(IncomeSalary(h1:Int,h2:Int))
