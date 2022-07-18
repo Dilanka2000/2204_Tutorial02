@@ -1,4 +1,4 @@
-object Question_04 {
+object Question04 {
   def main(args:Array[String]): Unit ={
     printf("Salary= Rs: %.4f\n",TakeSalary(40,30))
     printf("Your Profit= %d\n",Profit(10))
